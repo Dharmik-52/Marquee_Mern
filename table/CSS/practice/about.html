@@ -29,12 +29,36 @@
       p{
         color: green;
       }
+      .navbar-top
+      {
+        top: 10px;
+        background-color: aqua;
+        position: sticky;
+      }
+      .stick
+      {
+          position: sticky; 
+      top: 10px;         
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid #ccc;
+      }
+      .chat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+      }
+    .chat img {
+    height: 70px;
+}
+
     </style>
   </head>
   <body>
     <!-- Top Level Information -->
 
-    <header id="navbar-top">
+    <header id="navbar-top" class="navbar-top">
       <nav>
         <a href="#sub-heading-1">1. Topics</a> <br />
         <a href="#sub-heading-2">2. Topics</a> <br />
@@ -72,7 +96,7 @@
         <div id="sub-heading-1">
           <h2>1. Fees Structure</h2>
           <span><a href="#navbar-top">Go to Top</a></span>
-          <p>
+          <p class = "stick">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
             earum nulla quam repellat, ipsum numquam commodi modi quidem
             veritatis? Atque, nostrum cupiditate quo odio quibusdam non iure
@@ -258,6 +282,10 @@
             >
           </p>
         </div>
+      </div>
+      
+      <div class="chat">
+      <img src="https://static.vecteezy.com/system/resources/previews/007/225/199/non_2x/robot-chat-bot-concept-illustration-vector.jpg"  alt="chat" >
       </div>
     </main>
 
