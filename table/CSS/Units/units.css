@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#f4f4f4;
+}
+
+.container{
+
+    position:relative;
+    width:430px;
+    height:560px;
+}
+
+.border{
+
+    position:absolute;
+    border-radius:30px;
+    border:3px solid;
+}
+
+
+.card{
+
+    position:absolute;
+    width:320px;
+    background:#fff;
+    left:55px;
+    top:25px;
+    border-radius:28px;
+    overflow:hidden;
+    border:3px solid #333;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.cover{
+
+    height:130px;
+    background:linear-gradient(135deg,#4d74f8,#3668ea);
+}
+
+.profile{
+
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+
+    position:absolute;
+    left:30%;
+    top:65px;
+}
+
+.content{
+
+    padding:80px 25px 30px;
+    text-align:center;
+}
+
+.content h2{
+
+    font-size:30px;
+    font-weight:600;
+}
+
+.content p{
+
+    color:#666;
+    margin-top:5px;
+}
+
+.social{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:25px 0;
+}
+
+.social a{
+
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    text-decoration:none;
+    transition:.4s;
+}
+
+.social a:nth-child(1){
+background:#1877f2;
+height: auto;
+}
+
+.social a:nth-child(2){
+background:#1da1f2;
+}
+
+.social a:nth-child(3){
+background:#e1306c;
+}
+
+.social a:nth-child(4){
+background:#ff0000;
+}
+
+
+
+.buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.buttons button{
+
+    padding:12px 28px;
+    border:none;
+    border-radius:30px;
+    background:#4d74f8;
+    color:#fff;
+    cursor:pointer;
+    font-size:15px;
+    transition:.4s;
+}
+
+.buttons button:hover{
+
+    background:#2857e5;
+    color: blue;
+}
+.social i:hover{
+    transition: 0.4s;
+    transform: scale(1.4);
+    cursor: pointer;
+
+}
+
