@@ -6,30 +6,29 @@
 }
 
 .services{
-    width:1200px;
+    width:1300px;
     margin:60px auto;
 }
 
 .services h2{
     text-align:center;
-    color:#1c3f94;
+    color:#113695;
     font-size:40px;
     margin-bottom:50px;
 }
 
 .service-box{
-    width:32%;
+    width:33%;
     display:inline-block;
-    vertical-align:top;
-    margin-bottom:40px;
+    margin-bottom:50px;
 }
 
 .icon{
     width:60px;
     height:60px;
     border-radius:50%;
-    background:#fff;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    background:#b9d7dd;
+    box-shadow:0 7px 17px rgba(9, 9, 9, 0.15);
     text-align:center;
     line-height:60px;
     display:inline-block;
@@ -37,13 +36,13 @@
 }
 
 .icon i{
-    font-size:22px;
+    font-size:25px;
     color:#000;
     transition:.4s;
 }
 
 .content{
-    width:75%;
+    width:70%;
     display:inline-block;
     vertical-align:top;
     margin-left:15px;
@@ -51,23 +50,23 @@
 
 .content h3{
     margin-bottom:10px;
-    font-size:22px;
+    font-size:24px;
     transition:.4s;
 }
 
 .content p{
     color:#666;
-    line-height:1.7;
+    line-height:1.8;
 }
 
-/* Hover Effect */
+
 
 .service-box:hover .icon{
     background:#ef4444;
 }
 
 .service-box:hover .icon i{
-    color:#fff;
+    color:#020f74;
 }
 
 .service-box:hover h3{
