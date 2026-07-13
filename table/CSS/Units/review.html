@@ -160,6 +160,96 @@ body{
 }
 
 }
+
+.Whatsapp-button{
+            position: fixed;
+            left: 30px;
+            bottom: 25px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 34px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+            z-index: 999;
+        }
+
+        .Whatsapp-button:hover {
+            transform: scale(1.08);
+        }
+        .whatsapp-box
+        {
+         position: absolute;
+            left: 25px;
+            bottom: 25px;
+            height: 50px;;
+            z-index: 999;   
+        }
+
+        .chat-box {
+            position: absolute;
+            right: 25px;
+            bottom: 25px;
+            z-index: 999;
+        }
+
+        .chat-button {
+            width: 65px;
+            height: 65px;
+            background: #183B8C;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 28px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+        }
+
+        .notification {
+            position: absolute;
+            top: -3px;
+            right: -3px;
+            width: 22px;
+            height: 22px;
+            background: red;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            font-weight: bold;
+            border: 2px solid white;
+        }
+        .chat-text {
+            position: absolute;
+            right: -8px;
+            bottom: 55px;
+            color: #37b7d6;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            transform: rotate(-30deg);
+            white-space: nowrap;
+        }
+
+
+        .chat-text::before {
+            content: "👋";
+            position: absolute;
+            left: -25px;
+            top: -5px;
+            font-size: 18px;
+        }
+        
+
     </style>
 </head>
 <body>
@@ -236,7 +326,8 @@ body{
             <h4>Tech Lead</h4>
 
             <div class="stars">
-                ★ ★ ★ ★ ★
+                <span><i class="fa-regular fa-star"></i></span>
+
             </div>
 
             <p>
@@ -247,8 +338,22 @@ body{
             </p>
 
         </div>
+        </div>
+        <div class="whatsapp-box">
+        <a href="#" class="Whatsapp-button">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        </div>
+        <div class="chat-box">
+            <a href="#" class="chat-button">
+                <i class="fa-solid fa-comments"></i>
+            </a>
+            <span class="notification">1</span>
+            <div class="chat-text">
+                We Are Here!
+            </div>
+        </div>
 
-    </div>
 
 </section>
 
