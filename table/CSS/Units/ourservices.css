@@ -7,7 +7,7 @@
 
 .services{
     width:1300px;
-    margin:60px auto;
+    margin:50px auto;
 }
 
 .services h2{
@@ -26,13 +26,13 @@
 .icon{
     width:60px;
     height:60px;
-    border-radius:50%;
+    border-radius:40%;
     background:#b9d7dd;
     box-shadow:0 7px 17px rgba(9, 9, 9, 0.15);
     text-align:center;
     line-height:60px;
     display:inline-block;
-    transition:.4s;
+    transition:.3s;
 }
 
 .icon i{
